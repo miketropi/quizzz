@@ -1,0 +1,1 @@
+This project leverages AI to generate quick quiz questions. Clients can input a prompt, and the AI will render the content of the quiz, providing an efficient and interactive way to create educational or engaging content.
