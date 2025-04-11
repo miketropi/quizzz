@@ -1,12 +1,70 @@
-# React + Vite
+# QuizZZ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered quiz generation tool that creates interactive quizzes from user prompts.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+QuizZZ leverages artificial intelligence to quickly generate quiz questions. Users can input a prompt, and the AI will create educational or engaging quiz content - making quiz creation fast and effortless.
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![QuizZZ Application Preview](preview.jpeg)
+
+
+## Features
+
+- AI-powered quiz generation
+- Custom prompt inputs
+- Interactive quiz interface
+- Modern React UI with Tailwind CSS
+
+## Tech Stack
+
+- React 19
+- Tailwind CSS 4
+- Vite 6
+- Axios for API communication
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/quizzz.git
+   cd quizzz
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Environment setup
+   - Copy `.env-exam` to `.env`
+   - Update the environment variables as needed
+
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+### Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview the production build
+
+## Deployment
+
+This project can be deployed on Vercel or any other platform that supports Vite applications.
+
+## License
+
+[MIT](LICENSE)
