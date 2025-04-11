@@ -8,7 +8,7 @@ QuizZZ leverages artificial intelligence to quickly generate quiz questions. Use
 
 ## Preview
 
-![QuizZZ Application Preview](preview.jpeg)
+![QuizZZ Application Preview](https://github.com/miketropi/quizzz/blob/master/public/images/preview.jpeg?raw=true)
 
 
 ## Features
